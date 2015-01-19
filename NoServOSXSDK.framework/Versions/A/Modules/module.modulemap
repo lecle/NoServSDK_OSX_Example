@@ -1,0 +1,6 @@
+framework module NoServOSXSDK {
+  umbrella header "NoServOSXSDK.h"
+
+  export *
+  module * { export * }
+}
