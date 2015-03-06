@@ -8,12 +8,12 @@
 
 /** NoServObject 클래스
  
- 객 생성
- 객 가져오기
- 객 변경
- 객 검색
+ 객체 생성
+ 객체 가져오기
+ 객체 변경
+ 객체 검색
  갯수 검색 
- 객 삭제
+ 객체 삭제
  
  */
 
@@ -24,7 +24,7 @@
 @interface NoServObject : NSObject
 
 /**
- 객 생성
+ 객체 생성
  
  @param className    클래스 이름
  @param jsonObject   생성할 오브젝트
@@ -34,7 +34,7 @@
 +(void)createWithClassName:(NSString*)className withJSONObject:(JSONObject*)jsonObject onError:(Error)errorBlock onSuccess:(JSONObjectFetched)successBlock;
 
 /**
- 객 가져오기
+ 객체 가져오기
  
  @param className    클래스 이름
  @param objectId     Object ID
@@ -44,7 +44,7 @@
 +(void)retrieveWithClassName:(NSString*)className withObjectId:(NSString*)objectId onError:(Error)errorBlock onSuccess:(JSONObjectFetched)successBlock;
 
 /**
- 객 변경
+ 객체 변경
  
  @param className    클래스 이름
  @param objectId     Object ID
@@ -55,7 +55,7 @@
 +(void)updateWithClassName:(NSString*)className withObjectId:(NSString*)objectId withJSONObject:(JSONObject*)jsonObject onError:(Error)errorBlock onSuccess:(JSONObjectFetched)successBlock;
 
 /**
- 객 검색
+ 객체 검색
  
  @param className             클래스 이름
  @param conditionalJsonObject 검색 조건 오브젝트(And 조건으로 묶임)
@@ -75,7 +75,7 @@
 +(void)getCountWithClassName:(NSString*)className withConditionObject:(ConditionalJSONObject*)conditionalJsonObject  onError:(Error)errorBlock onSuccess:(CountFetched)successBlock;
 
 /**
- 객 삭제
+ 객체 삭제
  
  @param className    클래스 이름
  @param objectId     Object ID

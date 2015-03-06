@@ -1,6 +1,6 @@
 //
-//  NoServOSXFramework.h
-//  NoServOSXFramework
+//  NoServOSXSDK.h
+//  NoServOSXSDK
 //
 //  Created by Jin-Woo Lee on 2015. 1. 19..
 //  Copyright (c) 2015년 JinWoo Lee. All rights reserved.
@@ -20,12 +20,12 @@
 #import "HTTP.h"
 
 
-//! Project version number for NoServOSXFramework.
-FOUNDATION_EXPORT double NoServOSXFrameworkVersionNumber;
+//! Project version number for NoServOSXSDK.
+FOUNDATION_EXPORT double NoServOSXSDKVersionNumber;
 
-//! Project version string for NoServOSXFramework.
-FOUNDATION_EXPORT const unsigned char NoServOSXFrameworkVersionString[];
+//! Project version string for NoServOSXSDK.
+FOUNDATION_EXPORT const unsigned char NoServOSXSDKVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <NoServOSXFramework/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <NoServOSXSDK/PublicHeader.h>
 
 

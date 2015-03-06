@@ -23,7 +23,7 @@
 
 
 @interface NoServUser : NSObject
-/** 유저 생성 함수
+/** 유저 생성
  
  성공시 onSuccess의 블락이
  
@@ -35,7 +35,7 @@
  */
 +(void)signUpWithUserInfo:(NoServUserInfo*)userInfo onError:(Error)errorBlock onSuccess:(UserInfoFetched)successBlock;
 
-/** 유저 로그인 함수
+/** 유저 로그인
  
  성공시 onSuccess의 블락이
  
@@ -47,7 +47,7 @@
  */
 +(void)logInWithUserInfo:(NoServUserInfo*)userInfo onError:(Error)errorBlock onSuccess:(UserInfoFetched)successBlock;
 
-/** 유저 로그인 함수
+/** 유저 로그인
  
  성공시 onSuccess의 블락이
  
