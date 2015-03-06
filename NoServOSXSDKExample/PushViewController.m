@@ -45,9 +45,9 @@
 - (IBAction)retrieveTouched:(id)sender {
     [self clearLog];
     
-    NSString *objectId = @"547e2ad20a80515c3468b44f";
+    NSString *objectId = @"54f9437dfccca1df54a6e0ed";
     
-    NSString *masterKey = @"mX0mOUFYTyt93ErSMvOMsaMgsZ8zHulH";
+    NSString *masterKey = @"danhjjsa1k3p7gb9k2emsc0pe3ik9oty";
     
     [NoServPush retrieveWithObjectId:objectId withMasterKey:masterKey onError:^(NSError *error) {
         [self appendLog:@"Error"];
@@ -64,7 +64,7 @@
 - (IBAction)queryTouched:(id)sender {
     [self clearLog];
     
-    NSString *masterKey = @"mX0mOUFYTyt93ErSMvOMsaMgsZ8zHulH";
+    NSString *masterKey = @"danhjjsa1k3p7gb9k2emsc0pe3ik9oty";
     
     [NoServPush queryListWithConditionObject:nil withMasterKey:masterKey onError:^(NSError *error) {
         [self appendLog:@"Error"];

@@ -40,7 +40,7 @@
     
     [self clearLog];
     
-    NSString *masterKey = @"mX0mOUFYTyt93ErSMvOMsaMgsZ8zHulH";
+    NSString *masterKey = @"danhjjsa1k3p7gb9k2emsc0pe3ik9oty";
     
     [NoServFile deleteFromName:@"game.jpg" withMasterKey:masterKey onError:^(NSError *error) {
         [self appendLog:@"Error"];

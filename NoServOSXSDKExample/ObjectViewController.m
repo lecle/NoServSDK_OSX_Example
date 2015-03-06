@@ -50,7 +50,7 @@
     JSONObject *jsonObject = [[JSONObject alloc] init];
     [jsonObject putValue:@"value" forKey:@"key"];
     
-    [NoServObject retrieveWithClassName:className withObjectId:@"54accd5a362ffe104d633231" onError:^(NSError *error) {
+    [NoServObject retrieveWithClassName:className withObjectId:@"54f942e2fccca1df54a6e0e2" onError:^(NSError *error) {
         [self appendLog:@"Error"];
         [self appendLog:error.userInfo.description];
     } onSuccess:^(JSONObject *jsonObject) {
@@ -68,7 +68,7 @@
     JSONObject *updateJsonObject = [[JSONObject alloc] init];
     [updateJsonObject putValue:@"value2" forKey:@"key2"];
     
-    [NoServObject updateWithClassName:className withObjectId:@"54aa5257362ffe104d633225" withJSONObject:updateJsonObject onError:^(NSError *error) {
+    [NoServObject updateWithClassName:className withObjectId:@"54f942e2fccca1df54a6e0e2" withJSONObject:updateJsonObject onError:^(NSError *error) {
         [self appendLog:@"Error"];
         [self appendLog:error.userInfo.description];
     } onSuccess:^(JSONObject *jsonObject) {
